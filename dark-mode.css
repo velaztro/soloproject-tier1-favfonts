@@ -1,0 +1,102 @@
+:root {
+  --hover: red;
+  --text: whitesmoke;
+}
+
+body.dark-mode {
+  color: var(--text);
+  background-color: #22262f;
+}
+
+body {
+  transition: color 0.3s;
+  transition-timing-function: linear;
+  transition: background-color 0.4s;
+}
+
+body.dark-mode #light:hover {
+  color: var(--hover);
+}
+
+body.dark-mode #list-view:hover {
+  color: var(--hover);
+}
+
+body.dark-mode #size:hover {
+  color: var(--hover);
+}
+
+body.dark-mode #restart:hover {
+  color: var(--hover);
+}
+
+body.dark-mode #dark {
+  display: none;
+}
+
+body.dark-mode #light {
+  display: flex;
+  border: none;
+  font-size: 18px;
+  background: none;
+  cursor: pointer;
+  color: var(--text);
+  align-items: center;
+}
+
+body.dark-mode a:hover {
+  color: var(--hover);
+}
+
+body.dark-mode header {
+  color: var(--text);
+  border-bottom: 1px solid var(--text);
+}
+
+body.dark-mode #size {
+  color: var(--text);
+}
+
+body.dark-mode #logo {
+  color: var(--text);
+}
+
+body.dark-mode input {
+  color: var(--text);
+}
+
+body.dark-mode label {
+  color: var(--text);
+}
+
+body.dark-mode #toolbox {
+  border: 1px solid var(--text);
+}
+
+body.dark-mode #dark {
+  color: var(--text);
+}
+
+body.dark-mode #list-view {
+  color: var(--text);
+}
+
+body.dark-mode #restart {
+  color: var(--text);
+}
+
+body.dark-mode .cards {
+  border-top: 1px solid var(--text);
+}
+
+body.dark-mode .subtitle {
+     color: rgb(185, 169, 169);
+}
+
+body.dark-mode footer {
+  color: var(--text);
+}
+
+body.dark-mode footer > a {
+  color: var(--text);
+}

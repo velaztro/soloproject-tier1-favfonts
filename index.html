@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Favorite Fonts</title>
+    <!-- My CSS: -->
+    <link rel="stylesheet" type="text/css" href="dark-mode.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <!-- Font Awesome: -->
+    <script src="https://kit.fontawesome.com/6003723623.js" crossorigin="anonymous"></script>
+    <!-- Google Fonts: -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Baloo+2&family=Castoro&
+        family=Comfortaa&family=East+Sea+Dokdo&family=Exo+2&family=Montserrat&family=Padauk&
+        family=Play&family=Sansita+Swashed&family=Syne+Mono&family=Yeon+Sung&display=swap" rel="stylesheet">
+
+    <!--Fonts:
+        1 font-family: 'Abril Fatface', cursive;
+        2 font-family: 'Baloo 2', cursive;
+        3 font-family: 'Castoro', serif;
+        4 font-family: 'Comfortaa', cursive;
+        5 font-family: 'East Sea Dokdo', cursive;
+        6 font-family: 'Exo 2', sans-serif;
+        7 font-family: 'Montserrat', sans-serif;
+        8 font-family: 'Padauk', sans-serif;
+        9 font-family: 'Play', sans-serif;
+        10 font-family: 'Sansita Swashed', cursive;
+        11 font-family: 'Syne Mono', monospace;
+        12 font-family: 'Yeon Sung', cursive;
+        -->
+</head>
+
+<body>
+    <header>
+        <div id="logo">
+            <span><b>Google</b> Fonts</span>
+        </div>
+        <nav>
+            <ul>
+                <li><a>CATALOG</a></li>
+                <li><a>FEATURED</a></li>
+                <li><a>ARTICLES</a></li>
+                <li><a>ABOUT</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div>
+        <div id="toolbox">
+            <input id="search" type="search" placeholder="Search fonts">
+            <input id="test-text" type="text" placeholder="Type something">
+            <select id="size" title="Text Size">
+                <option value="20">20px</option>
+                <option value="24">24px</option>
+                <option value="32">32px</option>
+                <option value="40">40px</option>
+            </select><label>▼</label>
+            <button class="dark" id="dark" type="button" title="Dark Mode"><i class="fas fa-moon"></i></button>
+            <button class="light" id="light" type="button" title="Light Mode"><i class="fas fa-sun"></i></button>
+            <i id="list-view" title="List view" class="fas fa-list-ul"></i>
+            <button id="restart" title="Reset"><i class="fas fa-undo-alt"></i></button>
+        </div>
+    </div>
+    <main>
+        <div class="flex-cards">
+            <div class="cards" id="one">
+                <button id="add-button"><i class="far fa-plus-square"></i></button>
+                <span class="title">Abril Fatface</span>
+                <span class="subtitle">TypeTogether</span>
+                <div id="max" class="font sample" style="font-family: 'Abril Fatface', cursive;">“You are not entitled
+                    to your opinion. You are entitled to your informed opinion. No one is entitled to be ignorant.”
+                </div>
+            </div>
+            <div class="cards" id="two">
+                <button id="add-button"><i class="far fa-plus-square"></i></button>
+                <span class="title">Baloo 2</span>
+                <span class="subtitle">Ek Type</span>
+                <div class="font sample" style="font-family: 'Baloo 2', cursive;">“You are not entitled to your opinion.
+                    You are entitled to your informed opinion. No one is entitled to be ignorant.”</div>
+            </div>
+            <div class="cards" id=three>
+                <button id="add-button"><i class="far fa-plus-square"></i></button>
+                <span class="title">Castoro</span>
+                <span class="subtitle">Tiro Typeworks, John Hudson, Paul Hanslow, Kaja Słojewska</span>
+                <div class="font" style="font-family: 'Castoro', serif;">“You are not entitled to your opinion. You are
+                    entitled to your informed opinion. No one is entitled to be ignorant.”</div>
+            </div>
+            <div class="cards" id="four">
+                <button id="add-button"><i class="far fa-plus-square"></i></button>
+                <span class="title">Comfortaa</span>
+                <span class="subtitle">Johan Aakerlund, Cyreal</span>
+                <div class="font" style="font-family: 'Comfortaa', cursive;">“You are not entitled to your opinion. You
+                    are entitled to your informed opinion. No one is entitled to be ignorant.”</div>
+            </div>
+            <div class="cards" id="five">
+                <button id="add-button"><i class="far fa-plus-square"></i></button>
+                <span class="title">East Sea Dokdo</span>
+                <span class="subtitle">YoonDesign Inc</span>
+                <div class="font" style="font-family: 'East Sea Dokdo', cursive;">“You are not entitled to your opinion.
+                    You are entitled to your informed opinion. No one is entitled to be ignorant.”</div>
+            </div>
+            <div class="cards" id="six">
+                <button id="add-button"><i class="far fa-plus-square"></i></button>
+                <span class="title">Exo 2</span>
+                <span class="subtitle">Natanael Gama</span>
+                <div class="font" style="font-family: 'Exo 2', sans-serif;">“You are not entitled to your opinion. You
+                    are entitled to your informed opinion. No one is entitled to be ignorant.”</div>
+            </div>
+            <div class="cards" id="seven">
+                <button id="add-button"><i class="far fa-plus-square"></i></button>
+                <span class="title">Montserrat</span>
+                <span class="subtitle">Julieta Ulanovsky, Sol Matas, Juan Pablo del Peral, Jacques Le Bailly</span>
+                <div class="font" style="font-family: 'Montserrat', sans-serif;">“You are not entitled to your opinion.
+                    You are entitled to your informed opinion. No one is entitled to be ignorant.”</div>
+            </div>
+            <div class="cards" id="eight">
+                <button id="add-button"><i class="far fa-plus-square"></i></button>
+                <span class="title">Padauk</span>
+                <span class="subtitle">SIL International</span>
+                <div class="font" style="font-family: 'Padauk', sans-serif;">“You are not entitled to your opinion. You
+                    are entitled to your informed opinion. No one is entitled to be ignorant.”</div>
+            </div>
+            <div class="cards" id="nine">
+                <button id="add-button"><i class="far fa-plus-square"></i></button>
+                <span class="title">Play</span>
+                <span class="subtitle">Jonas Hecksher</span>
+                <div class="font" style="font-family: 'Play', sans-serif;">“You are not entitled to your opinion. You
+                    are entitled to your informed opinion. No one is entitled to be ignorant.”</div>
+            </div>
+            <div class="cards" id="ten">
+                <button id="add-button"><i class="far fa-plus-square"></i></button>
+                <span class="title">Sansita Swashed</span>
+                <span class="subtitle">Omnibus-Type</span>
+                <div class="font" style="font-family: 'Sansita Swashed', cursive;">“You are not entitled to your
+                    opinion. You are entitled to your informed opinion. No one is entitled to be ignorant.”</div>
+            </div>
+            <div class="cards" id="eleven">
+                <button id="add-button"><i class="far fa-plus-square"></i></button>
+                <span class="title">Syne Mono</span>
+                <span class="subtitle">Bonjour Monde, Lucas Descroix</span>
+                <div class="font" style="font-family: 'Syne Mono', monospace;">“You are not entitled to your opinion.
+                    You are entitled to your informed opinion. No one is entitled to be ignorant.”</div>
+            </div>
+            <div class="cards" id="twelve">
+                <button id="add-button"><i class="far fa-plus-square"></i></button>
+                <span class="title">Yeon Sung</span>
+                <span class="subtitle">Woowahan brothers</span>
+                <div class="font" style="font-family: 'Yeon Sung', cursive;">“You are not entitled to your opinion. You
+                    are entitled to your informed opinion. No one is entitled to be ignorant.”</div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <span>Guillermo V. Castro | 2020</span><br>
+        <a href="https://github.com/velaztro/" target="_blank"><i class="fab fa-github-square"></i></a>
+        <a href="www.linkedin.com/in/guillermo-velazquez/" target="_blank"><i class="fab fa-linkedin"></i></a>
+    </footer>
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
