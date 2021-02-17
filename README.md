@@ -1,7 +1,7 @@
 # FavFonts
 
 ## Overview
-Google Fonts clone made for the Chingu Explorer <a href="https://github.com/chingu-voyages/soloproject-tier1-favfonts">Solo Project</a> (Favorite Fonts: Tier 1).
+Google Fonts clone made for the <a href="https://chingu.io">Chingu</a> Explorer <a href="https://github.com/chingu-voyages/soloproject-tier1-favfonts">Solo Project</a> (Favorite Fonts: Tier 1).
 
 ## Features and implementations
 <ul>
